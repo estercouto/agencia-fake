@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between; 
+    width: 100vw;
+    background-color: #ffffff;
+    position: fixed;
+   
+} 
+nav h1{
+    font-family: 'Lobster', cursive;
+    color: #180f4a;
+    font-size: 34px;  
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50vw;
+    margin-right: 7%;
+    list-style: none;
+}  
+.title{
+    width: 29vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: #180f4a;
+    font-size: 20px;
+    padding: 20px 16px;
+    position: relative;
+    left: 10%;
+}
+nav a:hover{
+    color: #ff2978;
+    border-top: #180f4a solid 4px;
+}
+#botao{
+    background: #180f4a;
+    padding: 10px 25px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+#botao:hover{
+    border:none ;
+    background-color: #ff2978;
+}
+header{
+    display: flex;
+    height: 73vh;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+    position: relative;
+    bottom: 25px;
+}
+h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #180f4a;
+}
+figure{
+    margin-right: 10%;
+    flex: 40%;
+    display: flex;
+}
+figure img{
+    max-width: 100%;
+}
+.headline p{
+    color: gray;
+    text-align: left;
+}
+.contact-btn{
+    background-color: #ff2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    left: 0%;
+    top: 40px;
+}
+.contact-btn:hover{
+    background-color: #180f4a;
+    border:none ;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    height: 70vh;
+}
+section h2{
+   text-align: center;
+   font-size: 50px;
+   font-family: 'Lobster', cursive;
+   font-weight: bolder;
+   color: #180f4a;
+}
+.servicos{
+    margin-top: 5%; 
+    display: flex;  
+  
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card{
+    text-align: center;
+    width: 30vw;
+    height: 30vh;
+    padding: 20px;
+    padding-top: 30px;
+    border: #ff2978 solid 1px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.card:hover{
+    background: #ff2978;
+    color: #ffffff;
+    padding: 40px;
+    margin: 0%;
+}
+.card:hover img{
+    display: none;
+}
+.card:hover .card-text{
+    display: none;
+}
+.card:hover .texto-oculto{
+    display: flex;
+    flex-direction: column;
+}
+.texto-oculto{
+    display: none;
+}
+footer{
+    margin-top: 100px;
+    background-image: linear-gradient(180deg,#180f4a,#090422,black);
+    height: 30vh;
+    text-align: center;
+    color: #ffffff;
+    border-top: #ff2978 5px solid;
+    padding-top: 50px;
+}
+footer h1{
+    font-family: 'Lobster', cursive;
+    padding-bottom: 20px;
+}
+b{
+    position: relative;
+    top: 100px;
+}
+.whats{
+    
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
